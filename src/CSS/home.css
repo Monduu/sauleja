@@ -1,0 +1,48 @@
+.card-row {
+    display: flex;
+    align-content: space-between;
+    padding: 50pt;
+    flex-wrap: nowrap;
+
+}
+
+h1 {
+    padding-top: 20pt;
+}
+
+.heading-row { 
+padding-top: 20pt;
+}
+
+h3 {
+    padding-top: 20pt;
+}
+
+
+
+.tab-image {
+    max-width: 200pt;
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+}
+
+.logo-sauleja {
+    color: #b30000;
+    padding-left: 50pt;
+    font-size: 50pt;
+    
+}
+
+/* .pointer {
+    cursor: pointer;
+} */
+
+/* .thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:250px;
+    height:auto;
+    display:block;
+    z-index:999;
+} */
