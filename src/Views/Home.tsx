@@ -26,6 +26,7 @@ function Home() {
               width="200"
               height="300"
               className="d-inline-block align-top pointer thumbnail"
+              alt="bibele"
             />
           </Col>
           <Col lg={4} sm={12}>
