@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/sauleja/static/css/main.f9677767.chunk.css",
-    "main.js": "/sauleja/static/js/main.aa0ebdfd.chunk.js",
-    "main.js.map": "/sauleja/static/js/main.aa0ebdfd.chunk.js.map",
-    "runtime-main.js": "/sauleja/static/js/runtime-main.2dabf408.js",
-    "runtime-main.js.map": "/sauleja/static/js/runtime-main.2dabf408.js.map",
+    "main.js": "/sauleja/static/js/main.b0810257.chunk.js",
+    "main.js.map": "/sauleja/static/js/main.b0810257.chunk.js.map",
+    "runtime-main.js": "/sauleja/static/js/runtime-main.7d5c5aca.js",
+    "runtime-main.js.map": "/sauleja/static/js/runtime-main.7d5c5aca.js.map",
     "static/css/2.184f8ef6.chunk.css": "/sauleja/static/css/2.184f8ef6.chunk.css",
-    "static/js/2.89487915.chunk.js": "/sauleja/static/js/2.89487915.chunk.js",
-    "static/js/2.89487915.chunk.js.map": "/sauleja/static/js/2.89487915.chunk.js.map",
-    "static/js/3.4c9de759.chunk.js": "/sauleja/static/js/3.4c9de759.chunk.js",
-    "static/js/3.4c9de759.chunk.js.map": "/sauleja/static/js/3.4c9de759.chunk.js.map",
+    "static/js/2.63bccb58.chunk.js": "/sauleja/static/js/2.63bccb58.chunk.js",
+    "static/js/2.63bccb58.chunk.js.map": "/sauleja/static/js/2.63bccb58.chunk.js.map",
+    "static/js/3.d5cf7e56.chunk.js": "/sauleja/static/js/3.d5cf7e56.chunk.js",
+    "static/js/3.d5cf7e56.chunk.js.map": "/sauleja/static/js/3.d5cf7e56.chunk.js.map",
     "index.html": "/sauleja/index.html",
     "static/css/2.184f8ef6.chunk.css.map": "/sauleja/static/css/2.184f8ef6.chunk.css.map",
     "static/css/main.f9677767.chunk.css.map": "/sauleja/static/css/main.f9677767.chunk.css.map",
-    "static/js/2.89487915.chunk.js.LICENSE.txt": "/sauleja/static/js/2.89487915.chunk.js.LICENSE.txt",
+    "static/js/2.63bccb58.chunk.js.LICENSE.txt": "/sauleja/static/js/2.63bccb58.chunk.js.LICENSE.txt",
     "static/media/Bibele_prieksvaks.5b1fcec6.jpg": "/sauleja/static/media/Bibele_prieksvaks.5b1fcec6.jpg",
     "static/media/Dieniska_prieksvaks.16a280bb.jpg": "/sauleja/static/media/Dieniska_prieksvaks.16a280bb.jpg",
     "static/media/Jauna_deriba_vaks.ad1598e9.jpg": "/sauleja/static/media/Jauna_deriba_vaks.ad1598e9.jpg",
@@ -22,10 +22,10 @@
     "static/media/Tikai_viriesiem_prieksvaks.b4d541c0.jpg": "/sauleja/static/media/Tikai_viriesiem_prieksvaks.b4d541c0.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2dabf408.js",
+    "static/js/runtime-main.7d5c5aca.js",
     "static/css/2.184f8ef6.chunk.css",
-    "static/js/2.89487915.chunk.js",
+    "static/js/2.63bccb58.chunk.js",
     "static/css/main.f9677767.chunk.css",
-    "static/js/main.aa0ebdfd.chunk.js"
+    "static/js/main.b0810257.chunk.js"
   ]
 }
