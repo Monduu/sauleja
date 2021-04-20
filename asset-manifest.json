@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sauleja/static/css/main.f9677767.chunk.css",
-    "main.js": "/sauleja/static/js/main.b0810257.chunk.js",
-    "main.js.map": "/sauleja/static/js/main.b0810257.chunk.js.map",
+    "main.js": "/sauleja/static/js/main.51c7d983.chunk.js",
+    "main.js.map": "/sauleja/static/js/main.51c7d983.chunk.js.map",
     "runtime-main.js": "/sauleja/static/js/runtime-main.7d5c5aca.js",
     "runtime-main.js.map": "/sauleja/static/js/runtime-main.7d5c5aca.js.map",
     "static/css/2.184f8ef6.chunk.css": "/sauleja/static/css/2.184f8ef6.chunk.css",
@@ -26,6 +26,6 @@
     "static/css/2.184f8ef6.chunk.css",
     "static/js/2.63bccb58.chunk.js",
     "static/css/main.f9677767.chunk.css",
-    "static/js/main.b0810257.chunk.js"
+    "static/js/main.51c7d983.chunk.js"
   ]
 }
