@@ -19,57 +19,57 @@ function Home() {
   return (
     <div>
       <Container>
-        <Row className="card-row">
+        <Row>
           <Col lg={4} sm={12}>
-            <img
-              src={bibele_prieks}
-              width="200"
-              height="300"
-              className="d-inline-block align-top pointer thumbnail"
-              alt="bibele"
-            />
+            <div className="s-book-card">
+              <img
+                src={bibele_prieks}
+                className="d-inline-block align-top pointer thumbnail s-fill-width"
+                alt="bibele"
+              />
+            </div>
           </Col>
           <Col lg={4} sm={12}>
-            <img
-              src={jauna_deriba}
-              width="200"
-              height="300"
-              className="d-inline-block align-top pointer thumbnail"
-            />
+            <div className="s-book-card">
+              <img
+                src={jauna_deriba}
+                className="d-inline-block align-top pointer thumbnail s-fill-width"
+              />
+            </div>
           </Col>
           <Col lg={4} sm={12}>
-            <img
-              src={dieniska_gaisma}
-              width="200"
-              height="300"
-              className="d-inline-block align-top pointer thumbnail"
-            />
+            <div className="s-book-card">
+              <img
+                src={dieniska_gaisma}
+                className="d-inline-block align-top pointer thumbnail s-fill-width"
+              />
+            </div>
           </Col>
         </Row>
-        <Row className="card-row">
+        <Row>
           <Col lg={4} sm={12}>
-            <img
-              src={laipnibas_skola}
-              width="200"
-              height="300"
-              className="d-inline-block align-top pointer thumbnail"
-            />
+            <div className="s-book-card">
+              <img
+                src={laipnibas_skola}
+                className="d-inline-block align-top pointer thumbnail s-fill-width"
+              />
+            </div>
           </Col>
           <Col lg={4} sm={12}>
-            <img
-              src={sievietem}
-              width="200"
-              height="300"
-              className="d-inline-block align-top pointer thumbnail"
-            />
+            <div className="s-book-card">
+              <img
+                src={sievietem}
+                className="d-inline-block align-top pointer thumbnail s-fill-width"
+              />
+            </div>
           </Col>
           <Col lg={4} sm={12}>
-            <img
-              src={viriesiem}
-              width="200"
-              height="300"
-              className="d-inline-block align-top pointer thumbnail"
-            />
+            <div className="s-book-card">
+              <img
+                src={viriesiem}
+                className="d-inline-block align-top pointer thumbnail s-fill-width"
+              />
+            </div>
           </Col>
         </Row>
       </Container>
