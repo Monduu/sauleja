@@ -1,26 +1,24 @@
 .header {
-    display: flex;
-    /* justify-content: center; */
-    background-color: #E58763;
-    justify-content: flex-start;
-
+  display: flex;
+  /* justify-content: center; */
+  background-color: #d0caba;
+  justify-content: flex-start;
 }
 
 .footer {
-    display: flex;
-    justify-content: center;
-    background-color: #E58763;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #d0caba;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 .nav-link {
-    color: white;
+  color: white;
 }
 
 .nav-link:hover {
-    color: #524997;
+  color: #524997;
 }
-
