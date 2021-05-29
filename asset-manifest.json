@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.c52eee2d.chunk.css",
+    "main.css": "/static/css/main.4ffe205f.chunk.css",
     "main.js": "/static/js/main.50bd1a23.chunk.js",
     "main.js.map": "/static/js/main.50bd1a23.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.51e31948.js",
@@ -12,12 +12,13 @@
     "static/js/3.d5cf7e56.chunk.js.map": "/static/js/3.d5cf7e56.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.184f8ef6.chunk.css.map": "/static/css/2.184f8ef6.chunk.css.map",
-    "static/css/main.c52eee2d.chunk.css.map": "/static/css/main.c52eee2d.chunk.css.map",
+    "static/css/main.4ffe205f.chunk.css.map": "/static/css/main.4ffe205f.chunk.css.map",
     "static/js/2.63bccb58.chunk.js.LICENSE.txt": "/static/js/2.63bccb58.chunk.js.LICENSE.txt",
     "static/media/Bibele_prieksvaks.fd11155a.jpg": "/static/media/Bibele_prieksvaks.fd11155a.jpg",
     "static/media/Dieniska_prieksvaks.26bfb165.jpg": "/static/media/Dieniska_prieksvaks.26bfb165.jpg",
     "static/media/Jauna_deriba_vaks.d6e319c4.jpg": "/static/media/Jauna_deriba_vaks.d6e319c4.jpg",
     "static/media/Laipnibas_skola_prieksvaks.8787f0a2.jpg": "/static/media/Laipnibas_skola_prieksvaks.8787f0a2.jpg",
+    "static/media/index.css": "/static/media/TektonPro-BoldCond.ac4d9c27.otf",
     "static/media/Tikai_sievietem_prieksvaks.8da143ff.jpg": "/static/media/Tikai_sievietem_prieksvaks.8da143ff.jpg",
     "static/media/Tikai_viriesiem_prieksvaks.42cc283e.jpg": "/static/media/Tikai_viriesiem_prieksvaks.42cc283e.jpg"
   },
@@ -25,7 +26,7 @@
     "static/js/runtime-main.51e31948.js",
     "static/css/2.184f8ef6.chunk.css",
     "static/js/2.63bccb58.chunk.js",
-    "static/css/main.c52eee2d.chunk.css",
+    "static/css/main.4ffe205f.chunk.css",
     "static/js/main.50bd1a23.chunk.js"
   ]
 }
