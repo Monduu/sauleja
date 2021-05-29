@@ -1,36 +1,37 @@
 .s-fill-width {
-    width: 100%;
+  width: 100%;
 }
 
 .s-book-card {
-    margin: 16px 0;
-    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  margin: 16px 0;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
 }
 
 h1 {
-    padding-top: 20pt;
+  padding-top: 20pt;
 }
 
 .heading-row {
-    padding-top: 20pt;
+  padding-top: 20pt;
 }
 
 h3 {
-    padding-top: 20pt;
+  padding-top: 20pt;
 }
 
-
 .tab-image {
-    max-width: 200pt;
-    padding-top: 10pt;
-    padding-bottom: 10pt;
+  max-width: 200pt;
+  padding-top: 10pt;
+  padding-bottom: 10pt;
 }
 
 .logo-sauleja {
-    color: #b30000;
-    padding-left: 50pt;
-    font-size: 50pt;
-
+  color: #b30000;
+  padding-left: 50pt;
+  font-size: 50pt;
+  font-family: tekton-pro-condensed, sans-serif;
+  font-style: normal;
+  font-weight: 700;
 }
 
 /* .pointer {
