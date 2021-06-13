@@ -1,5 +1,5 @@
 // import { header } from '../CSS/header.css';
-import "../CSS/header.css";
+import '../CSS/header.css'
 
 function Footer() {
   return (
@@ -13,7 +13,7 @@ function Footer() {
         </p>
       </div>
     </div>
-  );
+  )
 }
 
-export default Footer;
+export default Footer

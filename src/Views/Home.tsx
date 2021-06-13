@@ -1,9 +1,9 @@
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import "../CSS/home.css";
-import React from "react";
-import {BooksMetadata} from "../data/BooksMetadata";
-import {BookCard} from "../Components/BookCard";
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import '../CSS/home.css'
+import React from 'react'
+import { BooksMetadata } from '../data/BooksMetadata'
+import { BookCard } from '../Components/BookCard'
 
 export const Home = () => {
   return (
@@ -11,12 +11,10 @@ export const Home = () => {
       <Container>
         <Row>
           {Array.from(BooksMetadata.keys()).map((key) => {
-            return (
-              <BookCard bookKey={key} key={key}/>
-            )
+            return <BookCard bookKey={key} key={key} />
           })}
         </Row>
       </Container>
     </div>
-  );
+  )
 }
