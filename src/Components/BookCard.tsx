@@ -7,7 +7,7 @@ interface Props {
 
 export const BookCard: FC<Props> = ({bookKey}) => {
   return (
-    <Col lg={4} sm={12}>
+    <Col sm={12} md={6} lg={4}>
       <div className="s-book-card">
         <img
           src={`/images/${bookKey}/main.jpg`}
