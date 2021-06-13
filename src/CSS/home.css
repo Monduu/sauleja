@@ -27,11 +27,13 @@ h3 {
 
 .logo-sauleja {
   color: #b30000;
-  padding-left: 50pt;
+  margin-left: 60pt;
   font-size: 50pt;
   font-family: tekton-pro-condensed, sans-serif;
   font-style: normal;
   font-weight: 700;
+  user-select: none;
+  cursor: pointer;
 }
 
 .App {
