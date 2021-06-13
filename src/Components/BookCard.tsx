@@ -11,7 +11,7 @@ export const BookCard: FC<Props> = ({bookKey}) => {
       <div className="s-book-card">
         <img
           src={`/images/${bookKey}/main.jpg`}
-          className="d-inline-block align-top pointer thumbnail s-fill-width"
+          className="d-inline-block s-fill-width"
           alt={bookKey}
         />
       </div>
