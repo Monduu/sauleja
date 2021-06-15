@@ -9,9 +9,9 @@
   display: flex;
   justify-content: center;
   background-color: #d0caba;
-  position: fixed;
-  bottom: 0;
-  left: 0;
+  /*position: fixed;*/
+  /*bottom: 0;*/
+  /*left: 0;*/
   width: 100%;
 }
 
