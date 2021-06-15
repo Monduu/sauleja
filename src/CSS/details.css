@@ -1,0 +1,15 @@
+.s-details-container {
+  margin: 16px 0;
+}
+
+.s-main-image {
+  padding-right: 8px;
+}
+
+.s-image-row {
+  padding: 0 15px 0 15px;
+  /*margin: 0;*/ /* TODO fix style override*/
+}
+.s-extra-image {
+  padding: 8px 8px 0 0 !important;
+}
