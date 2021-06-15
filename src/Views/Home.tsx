@@ -10,9 +10,7 @@ export const Home = () => {
     <div>
       <Container>
         <Row>
-          {Array.from(BooksMetadata.keys()).map((key) => {
-            return <BookCard bookKey={key} key={key} />
-          })}
+          {Array.from(BooksMetadata.keys()).map((key) => <BookCard bookKey={key} key={key} />)}
         </Row>
       </Container>
     </div>
