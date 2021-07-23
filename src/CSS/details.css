@@ -4,6 +4,7 @@
 
 .s-main-image {
   padding-right: 8px;
+  cursor: pointer;
 }
 
 .s-image-row {
@@ -18,6 +19,7 @@
 .s-extra-image {
   height: 100px;
   object-fit: cover;
+  cursor: pointer;
 }
 
 .s-author-caption {
