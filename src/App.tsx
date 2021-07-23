@@ -6,15 +6,15 @@ import { BookView } from './Views/BookView'
 
 function App() {
   return (
-    <div className='App'>
+    <div className="App">
       <Router>
         <Header />
-        <div className='container'>
+        <div className="container">
           <Switch>
-            <Route exact path='/'>
+            <Route exact path="/">
               <Home />
             </Route>
-            <Route exact path='/books/:bookName'>
+            <Route exact path="/books/:bookName">
               <BookView />
             </Route>
           </Switch>
