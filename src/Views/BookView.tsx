@@ -44,7 +44,7 @@ export const BookView = () => {
           </Col>
           <Col sm={12} md={6} lg={7}>
             <div className="s-book-description" dangerouslySetInnerHTML={{ __html: book.description }} />
-            <Button href={book.storeUrl} target="_blank">Pirkt</Button>
+            <Button href={book.storeUrl} target="_blank">Apskatīt internetveikalā</Button>
           </Col>
         </Row>
       </Container>
