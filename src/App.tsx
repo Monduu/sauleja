@@ -3,11 +3,13 @@ import Footer from './Components/Footer'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { Home } from './Views/Home'
 import { BookView } from './Views/BookView'
+import { ScrollToTop } from './Components/ScrollToTop'
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop/>
         <Header />
         <div className="container">
           <Switch>
