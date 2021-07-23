@@ -6,6 +6,7 @@ import { BooksMetadata } from '../data/BooksMetadata'
 import { SRLWrapper } from 'simple-react-lightbox'
 import '../CSS/home.css'
 import '../CSS/details.css'
+import { Button } from 'react-bootstrap'
 
 interface ParamTypes {
   bookName: string
@@ -19,10 +20,8 @@ export const BookView = () => {
     const images = []
     for (let i = 1; i <= book.numOfImages; i++) {
       images.push(
-        <Col xs={4} key={`${bookName}-e-${i}`} className='s-extra-image' hidden={i > 3}>
-          <img src={`/images/${bookName}/extra/${i}.jpg`}
-               className='s-fill-width'
-               alt={bookName} />
+        <Col xs={4} key={`${bookName}-e-${i}`} className="s-extra-image-container" hidden={i > 3}>
+          <img src={`/images/${bookName}/extra/${i}.jpg`} className="s-fill-width s-extra-image" alt={bookName} />
         </Col>
       )
     }
@@ -35,15 +34,17 @@ export const BookView = () => {
         <Row className="s-details-container">
           <Col sm={12} md={6} lg={5}>
             <SRLWrapper>
-              <img src={`/images/${bookName}/main.jpg`} className='d-inline-block s-fill-width s-main-image'
-                   alt={bookName} />
-              <Row className='s-image-row'>
-                {extraImages()}
-              </Row>
+              <img
+                src={`/images/${bookName}/main.jpg`}
+                className="d-inline-block s-fill-width s-main-image"
+                alt={bookName}
+              />
+              <Row className="s-image-row">{extraImages()}</Row>
             </SRLWrapper>
           </Col>
           <Col sm={12} md={6} lg={7}>
-            <div>{book.description}</div>
+            <div className="s-book-description" dangerouslySetInnerHTML={{ __html: book.description }} />
+            <Button href={book.storeUrl} target="_blank">Pirkt</Button>
           </Col>
         </Row>
       </Container>

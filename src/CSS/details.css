@@ -10,6 +10,18 @@
   padding: 0 15px 0 15px;
   /*margin: 0;*/ /* TODO fix style override*/
 }
-.s-extra-image {
+
+.s-extra-image-container {
   padding: 8px 8px 0 0 !important;
+}
+
+.s-extra-image {
+  height: 100px;
+  object-fit: cover;
+}
+
+.s-author-caption {
+  font-size: 14px;
+  margin-bottom: 16px;
+  color: #777777;
 }
