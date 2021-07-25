@@ -1,11 +1,15 @@
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import '../CSS/home.css'
-import React from 'react'
+import React, { useEffect } from 'react'
 import { BooksMetadata } from '../data/BooksMetadata'
 import { BookCard } from '../Components/BookCard'
 
 export const Home = () => {
+  useEffect(() => {
+    document.title = 'Sauleja'
+  })
+
   return (
     <div>
       <Container>
