@@ -7,6 +7,7 @@ import { SRLWrapper } from 'simple-react-lightbox'
 import '../CSS/home.css'
 import '../CSS/details.css'
 import { Button } from 'react-bootstrap'
+import { useEffect } from 'react'
 
 interface ParamTypes {
   bookName: string
@@ -16,12 +17,16 @@ export const BookView = () => {
   const { bookName } = useParams<ParamTypes>()
   const book = BooksMetadata.get(bookName)! // TODO redirect to 404
 
+  useEffect(() => {
+    document.title = `Sauleja - ${book.title}`
+  })
+
   const extraImages = () => {
     const images = []
     for (let i = 1; i <= book.numOfImages; i++) {
       images.push(
         <Col xs={4} key={`${bookName}-e-${i}`} className="s-extra-image-container" hidden={i > 3}>
-          <img src={`/images/${bookName}/extra/${i}.jpg`} className="s-fill-width s-extra-image" alt={bookName} />
+          <img src={`/images/${bookName}/extra/${i}.jpg`} className="s-fill-width s-extra-image" alt={book.title} />
         </Col>
       )
     }
@@ -37,7 +42,7 @@ export const BookView = () => {
               <img
                 src={`/images/${bookName}/main.jpg`}
                 className="d-inline-block s-fill-width s-main-image"
-                alt={bookName}
+                alt={book.title}
               />
               <Row className="s-image-row">{extraImages()}</Row>
             </SRLWrapper>

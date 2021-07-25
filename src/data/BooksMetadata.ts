@@ -1,4 +1,5 @@
 export interface BookData {
+  title: string,
   description: string
   numOfImages: number
   storeUrl: string
@@ -8,6 +9,7 @@ export const BooksMetadata: Map<string, BookData> = new Map<string, BookData>([
   [
     'bibele',
     {
+      title: 'Bībele',
       description:
         '<p><b>BĪBELE VIEGLI LASĀMĀ VALODĀ</b></p>' +
         '<p>Aizraujošs Svēto Rakstu atstāstījums no 1. Mozus līdz Atklāsmes grāmatai.</p>' +
@@ -28,6 +30,7 @@ export const BooksMetadata: Map<string, BookData> = new Map<string, BookData>([
   [
     'jauna_deriba',
     {
+      title: 'Jaunā Derība',
       description:
         '<b>BĪBELE VIEGLI LASĀMĀ VALODĀ - JAUNĀ DERĪBA</b><br>' +
         '<div class="s-author-caption">Janice Emmerson</div>' +
@@ -40,6 +43,7 @@ export const BooksMetadata: Map<string, BookData> = new Map<string, BookData>([
   [
     'laipnibas_skola',
     {
+      title: 'Laipnības Skola',
       description:
         '<b>LAIPNĪBAS SKOLA</b><br>' +
         '<div class="s-author-caption">Šauntija Feldhana</div>' +
@@ -64,6 +68,7 @@ export const BooksMetadata: Map<string, BookData> = new Map<string, BookData>([
   [
     'tikai_sievietem',
     {
+      title: 'Tikai Sievietēm',
       description:
         '<b>TIKAI SIEVIETĒM</b><br>' +
         '<div class="s-author-caption">Šauntija Feldhana</div>' +
@@ -78,6 +83,7 @@ export const BooksMetadata: Map<string, BookData> = new Map<string, BookData>([
   [
     'tikai_viriesiem',
     {
+      title: 'Tikai Vīriešiem',
       description:
         '<b>TIKAI VĪRIEŠIEM</b><br>' +
         '<div class="s-author-caption">Šauntija un Džefs Feldhani</div>' +
